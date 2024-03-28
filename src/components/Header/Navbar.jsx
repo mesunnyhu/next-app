@@ -43,16 +43,16 @@ function Navbar() {
               <summary>Blog</summary>
               <ul className="p-2">
                 <li>
-                  <a>About us</a>
+                  <Link href={'/aboutus'}>About us</Link>
                 </li>
                 <li>
-                  <a>Projects</a>
+                <Link href={'/project'}>Projects</Link>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Contact</a>
+          <Link className="" href={'/contact'}>Contact</Link>
           </li>
         </ul>
       </div>
